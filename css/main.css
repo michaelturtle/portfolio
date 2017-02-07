@@ -1,0 +1,159 @@
+/* CSS Reset */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* general stylings for whole site below here */
+
+* {
+  font-family: sans-serif;
+}
+
+
+.fa {
+  font-size: 3em;
+  font-weight: lighter;
+}
+
+/* all general stylings for whole site go above here */
+
+/* need styling for nav bar here*/
+
+
+/* styling for header section */
+
+.first {
+  background-image: url("../images/waves.gif");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.second {
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.third {
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.logo {
+  width: 15vh;
+}
+
+header {
+  text-align: right;
+  padding-top: 5vh;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 5em;
+  margin-top: 10vh;
+}
+
+.title h2 {
+  font-size: 2em;
+}
+
+.title p {
+  margin-top: 2vh;
+  font-size: 1em;
+}
+
+#about {
+  background-color: gray;
+  padding: 20vh 20vw;
+}
+
+.about-box {
+  background-color: white;
+  padding: 5vh 5vw;
+  margin: 0 auto;
+  max-width: 40vw;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.about-box h2 {
+  text-transform:uppercase;
+  margin-bottom:1em;
+}
+
+.second div, .third div {
+  padding: 3vh 5vw;
+  text-align: center;
+}
+
+.second div {
+  padding: 3vh 5vw;
+}
+
+.third div {
+  padding: 0vh 5vw;
+}
+
+.second h2, .third h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 3em;
+}
+
+.third h2 {
+  padding-bottom: 1em;
+}
+
+.third .grid {
+  padding-bottom: 10vh;
+}
+
+.second h3, .third h3 {
+  padding-top:1em;
+  text-transform: uppercase;
+}
+
+.second h4, .third h4 {
+  padding-top: 0.5em;
+}
+
+.second p, .third p {
+  padding-top: 1em;
+}
+
+.third .fa {
+  padding-top: 0.4em;
+  }
+}
+
+/* styling for map */
+
+.map {
+  min-width: 100vw;
+  min-height: 50vh;
+}
+
+/* styling for contact footer*/
+
+#contact {
+  background-color: grey;
+  text-align: center;
+}
+
+#contact h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  padding-top: 5vh;
+}
+
+.social {
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  font-size: 1em;
+}
